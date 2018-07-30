@@ -3,6 +3,7 @@ An iOS app for managing itineraries, built with Swift.
 
 # Function
 This iOS app is used to manage your trip plan.
+
 ![image](/Resources/index.png)
 
 # Setup Locally
