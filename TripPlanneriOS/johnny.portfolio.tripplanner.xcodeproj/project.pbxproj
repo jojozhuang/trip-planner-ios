@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08FBA831FBA4681000DB134 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B08FBA811FBA4681000DB134 /* Reachability.m */; };
+		B22286D71B1101EE00A9D5C7 /* China.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286CF1B1101EE00A9D5C7 /* China.png */; };
+		B22286D81B1101EE00A9D5C7 /* India.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D01B1101EE00A9D5C7 /* India.png */; };
+		B22286D91B1101EE00A9D5C7 /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D11B1101EE00A9D5C7 /* Japan.png */; };
+		B22286DA1B1101EE00A9D5C7 /* Mongolia.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D21B1101EE00A9D5C7 /* Mongolia.png */; };
+		B22286DB1B1101EE00A9D5C7 /* SaudiArabia.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D31B1101EE00A9D5C7 /* SaudiArabia.png */; };
+		B22286DC1B1101EE00A9D5C7 /* Singapore.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D41B1101EE00A9D5C7 /* Singapore.png */; };
+		B22286DD1B1101EE00A9D5C7 /* SouthKorea.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D51B1101EE00A9D5C7 /* SouthKorea.png */; };
+		B22286DE1B1101EE00A9D5C7 /* Thailand.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286D61B1101EE00A9D5C7 /* Thailand.png */; };
+		B22286E31B1101FF00A9D5C7 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286DF1B1101FF00A9D5C7 /* Canada.png */; };
+		B22286E41B1101FF00A9D5C7 /* Cuba.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E01B1101FF00A9D5C7 /* Cuba.png */; };
+		B22286E51B1101FF00A9D5C7 /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E11B1101FF00A9D5C7 /* Mexico.png */; };
+		B22286E61B1101FF00A9D5C7 /* UnitedStates.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E21B1101FF00A9D5C7 /* UnitedStates.png */; };
+		B22286EC1B11022200A9D5C7 /* Beijing.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E71B11022200A9D5C7 /* Beijing.png */; };
+		B22286ED1B11022200A9D5C7 /* Hangzhou.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E81B11022200A9D5C7 /* Hangzhou.png */; };
+		B22286EE1B11022200A9D5C7 /* Lhasa.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286E91B11022200A9D5C7 /* Lhasa.png */; };
+		B22286EF1B11022200A9D5C7 /* Sanya.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286EA1B11022200A9D5C7 /* Sanya.png */; };
+		B22286F01B11022200A9D5C7 /* Shanghai.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286EB1B11022200A9D5C7 /* Shanghai.png */; };
+		B22286F21B11022F00A9D5C7 /* NewYork.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286F11B11022F00A9D5C7 /* NewYork.png */; };
+		B22286F41B11181F00A9D5C7 /* Honolulu.png in Resources */ = {isa = PBXBuildFile; fileRef = B22286F31B11181F00A9D5C7 /* Honolulu.png */; };
+		B222FC511B1E4F1B00C06005 /* Apps-Sharing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B222FC501B1E4F1B00C06005 /* Apps-Sharing-icon.png */; };
+		B226E1421B17D3B6008E4802 /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226E1411B17D3B6008E4802 /* RateMyApp.swift */; };
+		B226E1441B17D458008E4802 /* TabSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226E1431B17D458008E4802 /* TabSettingsViewController.swift */; };
+		B23A029E1B0BCABE00AB7003 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A029D1B0BCABD00AB7003 /* CountryViewController.swift */; };
+		B23A02A01B0BDED100AB7003 /* CountryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A029F1B0BDED100AB7003 /* CountryViewCell.swift */; };
+		B246FF101B0409E4004B7F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246FF0F1B0409E4004B7F77 /* AppDelegate.swift */; };
+		B246FF171B0409E4004B7F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B246FF151B0409E4004B7F77 /* Main.storyboard */; };
+		B246FF191B0409E4004B7F77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B246FF181B0409E4004B7F77 /* Images.xcassets */; };
+		B246FF1C1B0409E4004B7F77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B246FF1A1B0409E4004B7F77 /* LaunchScreen.xib */; };
+		B246FF281B0409E4004B7F77 /* johnny_portfolio_tripplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246FF271B0409E4004B7F77 /* johnny_portfolio_tripplannerTests.swift */; };
+		B24EE7711B20DA5600C64A12 /* SettingsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24EE7701B20DA5600C64A12 /* SettingsAnimationViewController.swift */; };
+		B262476D1B0CE25F00FEA245 /* CityViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262476C1B0CE25F00FEA245 /* CityViewCell.swift */; };
+		B262476F1B0CE27600FEA245 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262476E1B0CE27600FEA245 /* CityViewController.swift */; };
+		B26247811B0CED2D00FEA245 /* Africa.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477A1B0CED2D00FEA245 /* Africa.png */; };
+		B26247821B0CED2D00FEA245 /* Antarctica.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477B1B0CED2D00FEA245 /* Antarctica.png */; };
+		B26247831B0CED2D00FEA245 /* Asia.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477C1B0CED2D00FEA245 /* Asia.png */; };
+		B26247841B0CED2D00FEA245 /* Europe.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477D1B0CED2D00FEA245 /* Europe.png */; };
+		B26247851B0CED2D00FEA245 /* NorthAmerica.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477E1B0CED2D00FEA245 /* NorthAmerica.png */; };
+		B26247861B0CED2D00FEA245 /* Oceania.png in Resources */ = {isa = PBXBuildFile; fileRef = B262477F1B0CED2D00FEA245 /* Oceania.png */; };
+		B26247871B0CED2D00FEA245 /* SouthAmerica.png in Resources */ = {isa = PBXBuildFile; fileRef = B26247801B0CED2D00FEA245 /* SouthAmerica.png */; };
+		B26247891B0CEE3700FEA245 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26247881B0CEE3700FEA245 /* CityDetailViewController.swift */; };
+		B2B157CB1B14DD8000F98A7B /* Sydney.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157CA1B14DD8000F98A7B /* Sydney.png */; };
+		B2B157CD1B14DD8D00F98A7B /* London.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157CC1B14DD8D00F98A7B /* London.png */; };
+		B2B157CF1B14DD9800F98A7B /* UnitedKingdom.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157CE1B14DD9800F98A7B /* UnitedKingdom.png */; };
+		B2B157D11B14DD9F00F98A7B /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157D01B14DD9F00F98A7B /* Australia.png */; };
+		B2B157D51B14F36000F98A7B /* MyFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B157D41B14F36000F98A7B /* MyFavoritesViewController.swift */; };
+		B2B157D71B150E0500F98A7B /* TabMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B157D61B150E0500F98A7B /* TabMeViewController.swift */; };
+		B2B157E11B15467300F98A7B /* Chicago.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157E01B15467300F98A7B /* Chicago.png */; };
+		B2B157E31B1546C100F98A7B /* LosAngeles.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157E21B1546C100F98A7B /* LosAngeles.png */; };
+		B2B157E51B1546C700F98A7B /* LasVegas.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157E41B1546C700F98A7B /* LasVegas.png */; };
+		B2B157EB1B162FD300F98A7B /* Travel.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157EA1B162FD300F98A7B /* Travel.png */; };
+		B2B157ED1B165C7D00F98A7B /* OneShotLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B157EC1B165C7D00F98A7B /* OneShotLocationManager.swift */; };
+		B2B157EF1B165F2C00F98A7B /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B157EE1B165F2C00F98A7B /* MyLocationViewController.swift */; };
+		B2B157F11B1780A800F98A7B /* City_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B157F01B1780A800F98A7B /* City_Default.png */; };
+		B2E0A6991B05343D00AAC71B /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A6981B05343D00AAC71B /* MyTripsViewController.swift */; };
+		B2E0A69B1B05356200AAC71B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A69A1B05356200AAC71B /* Data.swift */; };
+		B2E0A69D1B053A8F00AAC71B /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A69C1B053A8F00AAC71B /* TripDetailViewController.swift */; };
+		B2E0A6A11B05567B00AAC71B /* TabSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A6A01B05567B00AAC71B /* TabSearchViewController.swift */; };
+		B2E0A6A31B05587800AAC71B /* ContinentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A6A21B05587800AAC71B /* ContinentViewCell.swift */; };
+		B2F036591B1F8D70008A42F7 /* Lujiazui.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036541B1F8D70008A42F7 /* Lujiazui.png */; };
+		B2F0365A1B1F8D70008A42F7 /* OrientalPearlTower.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036551B1F8D70008A42F7 /* OrientalPearlTower.png */; };
+		B2F0365B1B1F8D70008A42F7 /* PeoplesSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036561B1F8D70008A42F7 /* PeoplesSquare.png */; };
+		B2F0365C1B1F8D70008A42F7 /* TheBund.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036571B1F8D70008A42F7 /* TheBund.png */; };
+		B2F0365D1B1F8D70008A42F7 /* YuyuanGarden.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036581B1F8D70008A42F7 /* YuyuanGarden.png */; };
+		B2F036631B1F8D86008A42F7 /* AdlerPlanetarium.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F0365E1B1F8D86008A42F7 /* AdlerPlanetarium.png */; };
+		B2F036641B1F8D86008A42F7 /* CloudGate.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F0365F1B1F8D86008A42F7 /* CloudGate.png */; };
+		B2F036651B1F8D86008A42F7 /* FieldMuseum.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036601B1F8D86008A42F7 /* FieldMuseum.png */; };
+		B2F036661B1F8D86008A42F7 /* SheddAquarium.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036611B1F8D86008A42F7 /* SheddAquarium.png */; };
+		B2F036671B1F8D86008A42F7 /* Skydeck.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F036621B1F8D86008A42F7 /* Skydeck.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B246FF221B0409E4004B7F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B246FF021B0409E4004B7F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B246FF091B0409E4004B7F77;
+			remoteInfo = johnny.portfolio.tripplanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B08FBA811FBA4681000DB134 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Resources/Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
+		B08FBA821FBA4681000DB134 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Resources/Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		B22286CF1B1101EE00A9D5C7 /* China.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = China.png; path = ../../Resources/images/country/country_Asia/China.png; sourceTree = "<group>"; };
+		B22286D01B1101EE00A9D5C7 /* India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = India.png; path = ../../Resources/images/country/country_Asia/India.png; sourceTree = "<group>"; };
+		B22286D11B1101EE00A9D5C7 /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Japan.png; path = ../../Resources/images/country/country_Asia/Japan.png; sourceTree = "<group>"; };
+		B22286D21B1101EE00A9D5C7 /* Mongolia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mongolia.png; path = ../../Resources/images/country/country_Asia/Mongolia.png; sourceTree = "<group>"; };
+		B22286D31B1101EE00A9D5C7 /* SaudiArabia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SaudiArabia.png; path = ../../Resources/images/country/country_Asia/SaudiArabia.png; sourceTree = "<group>"; };
+		B22286D41B1101EE00A9D5C7 /* Singapore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Singapore.png; path = ../../Resources/images/country/country_Asia/Singapore.png; sourceTree = "<group>"; };
+		B22286D51B1101EE00A9D5C7 /* SouthKorea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SouthKorea.png; path = ../../Resources/images/country/country_Asia/SouthKorea.png; sourceTree = "<group>"; };
+		B22286D61B1101EE00A9D5C7 /* Thailand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Thailand.png; path = ../../Resources/images/country/country_Asia/Thailand.png; sourceTree = "<group>"; };
+		B22286DF1B1101FF00A9D5C7 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Canada.png; path = ../../Resources/images/country/country_Na/Canada.png; sourceTree = "<group>"; };
+		B22286E01B1101FF00A9D5C7 /* Cuba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cuba.png; path = ../../Resources/images/country/country_Na/Cuba.png; sourceTree = "<group>"; };
+		B22286E11B1101FF00A9D5C7 /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mexico.png; path = ../../Resources/images/country/country_Na/Mexico.png; sourceTree = "<group>"; };
+		B22286E21B1101FF00A9D5C7 /* UnitedStates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UnitedStates.png; path = ../../Resources/images/country/country_Na/UnitedStates.png; sourceTree = "<group>"; };
+		B22286E71B11022200A9D5C7 /* Beijing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beijing.png; path = ../../Resources/images/city/city_cn/Beijing.png; sourceTree = "<group>"; };
+		B22286E81B11022200A9D5C7 /* Hangzhou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hangzhou.png; path = ../../Resources/images/city/city_cn/Hangzhou.png; sourceTree = "<group>"; };
+		B22286E91B11022200A9D5C7 /* Lhasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lhasa.png; path = ../../Resources/images/city/city_cn/Lhasa.png; sourceTree = "<group>"; };
+		B22286EA1B11022200A9D5C7 /* Sanya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sanya.png; path = ../../Resources/images/city/city_cn/Sanya.png; sourceTree = "<group>"; };
+		B22286EB1B11022200A9D5C7 /* Shanghai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shanghai.png; path = ../../Resources/images/city/city_cn/Shanghai.png; sourceTree = "<group>"; };
+		B22286F11B11022F00A9D5C7 /* NewYork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewYork.png; path = ../../Resources/images/city/city_usa/NewYork.png; sourceTree = "<group>"; };
+		B22286F31B11181F00A9D5C7 /* Honolulu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Honolulu.png; path = ../../Resources/images/city/city_usa/Honolulu.png; sourceTree = "<group>"; };
+		B222FC501B1E4F1B00C06005 /* Apps-Sharing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Apps-Sharing-icon.png"; path = "../../Resources/icon/Apps-Sharing-icon.png"; sourceTree = "<group>"; };
+		B226E1411B17D3B6008E4802 /* RateMyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+		B226E1431B17D458008E4802 /* TabSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSettingsViewController.swift; sourceTree = "<group>"; };
+		B226E1451B1A1730008E4802 /* johnny.portfolio.tripplanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "johnny.portfolio.tripplanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		B23A029D1B0BCABD00AB7003 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		B23A029F1B0BDED100AB7003 /* CountryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewCell.swift; sourceTree = "<group>"; };
+		B246FF0A1B0409E4004B7F77 /* Trip Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B246FF0E1B0409E4004B7F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B246FF0F1B0409E4004B7F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B246FF161B0409E4004B7F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B246FF181B0409E4004B7F77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B246FF1B1B0409E4004B7F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B246FF211B0409E4004B7F77 /* johnny.portfolio.tripplannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = johnny.portfolio.tripplannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B246FF261B0409E4004B7F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B246FF271B0409E4004B7F77 /* johnny_portfolio_tripplannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = johnny_portfolio_tripplannerTests.swift; sourceTree = "<group>"; };
+		B24EE7701B20DA5600C64A12 /* SettingsAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsAnimationViewController.swift; sourceTree = "<group>"; };
+		B262476C1B0CE25F00FEA245 /* CityViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewCell.swift; sourceTree = "<group>"; };
+		B262476E1B0CE27600FEA245 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		B262477A1B0CED2D00FEA245 /* Africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Africa.png; path = ../../Resources/images/continent/Africa.png; sourceTree = "<group>"; };
+		B262477B1B0CED2D00FEA245 /* Antarctica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Antarctica.png; path = ../../Resources/images/continent/Antarctica.png; sourceTree = "<group>"; };
+		B262477C1B0CED2D00FEA245 /* Asia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asia.png; path = ../../Resources/images/continent/Asia.png; sourceTree = "<group>"; };
+		B262477D1B0CED2D00FEA245 /* Europe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Europe.png; path = ../../Resources/images/continent/Europe.png; sourceTree = "<group>"; };
+		B262477E1B0CED2D00FEA245 /* NorthAmerica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NorthAmerica.png; path = ../../Resources/images/continent/NorthAmerica.png; sourceTree = "<group>"; };
+		B262477F1B0CED2D00FEA245 /* Oceania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Oceania.png; path = ../../Resources/images/continent/Oceania.png; sourceTree = "<group>"; };
+		B26247801B0CED2D00FEA245 /* SouthAmerica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SouthAmerica.png; path = ../../Resources/images/continent/SouthAmerica.png; sourceTree = "<group>"; };
+		B26247881B0CEE3700FEA245 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		B2B157CA1B14DD8000F98A7B /* Sydney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sydney.png; path = ../../Resources/images/city/city_au/Sydney.png; sourceTree = "<group>"; };
+		B2B157CC1B14DD8D00F98A7B /* London.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = London.png; path = ../../Resources/images/city/city_uk/London.png; sourceTree = "<group>"; };
+		B2B157CE1B14DD9800F98A7B /* UnitedKingdom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UnitedKingdom.png; path = ../../Resources/images/country/country_Eu/UnitedKingdom.png; sourceTree = "<group>"; };
+		B2B157D01B14DD9F00F98A7B /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Australia.png; path = ../../Resources/images/country/country_Oc/Australia.png; sourceTree = "<group>"; };
+		B2B157D41B14F36000F98A7B /* MyFavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFavoritesViewController.swift; sourceTree = "<group>"; };
+		B2B157D61B150E0500F98A7B /* TabMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMeViewController.swift; sourceTree = "<group>"; };
+		B2B157E01B15467300F98A7B /* Chicago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chicago.png; path = ../../Resources/images/city/city_usa/Chicago.png; sourceTree = "<group>"; };
+		B2B157E21B1546C100F98A7B /* LosAngeles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LosAngeles.png; path = ../../Resources/images/city/city_usa/LosAngeles.png; sourceTree = "<group>"; };
+		B2B157E41B1546C700F98A7B /* LasVegas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LasVegas.png; path = ../../Resources/images/city/city_usa/LasVegas.png; sourceTree = "<group>"; };
+		B2B157EA1B162FD300F98A7B /* Travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Travel.png; path = ../../Resources/icon/Travel.png; sourceTree = "<group>"; };
+		B2B157EC1B165C7D00F98A7B /* OneShotLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneShotLocationManager.swift; sourceTree = "<group>"; };
+		B2B157EE1B165F2C00F98A7B /* MyLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		B2B157F01B1780A800F98A7B /* City_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = City_Default.png; path = ../../Resources/images/City_Default.png; sourceTree = "<group>"; };
+		B2E0A6981B05343D00AAC71B /* MyTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		B2E0A69A1B05356200AAC71B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B2E0A69C1B053A8F00AAC71B /* TripDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		B2E0A6A01B05567B00AAC71B /* TabSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSearchViewController.swift; sourceTree = "<group>"; };
+		B2E0A6A21B05587800AAC71B /* ContinentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinentViewCell.swift; sourceTree = "<group>"; };
+		B2F036541B1F8D70008A42F7 /* Lujiazui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lujiazui.png; path = ../../Resources/images/city/city_cn/ShanghaiPoints/Lujiazui.png; sourceTree = "<group>"; };
+		B2F036551B1F8D70008A42F7 /* OrientalPearlTower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OrientalPearlTower.png; path = ../../Resources/images/city/city_cn/ShanghaiPoints/OrientalPearlTower.png; sourceTree = "<group>"; };
+		B2F036561B1F8D70008A42F7 /* PeoplesSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PeoplesSquare.png; path = ../../Resources/images/city/city_cn/ShanghaiPoints/PeoplesSquare.png; sourceTree = "<group>"; };
+		B2F036571B1F8D70008A42F7 /* TheBund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TheBund.png; path = ../../Resources/images/city/city_cn/ShanghaiPoints/TheBund.png; sourceTree = "<group>"; };
+		B2F036581B1F8D70008A42F7 /* YuyuanGarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YuyuanGarden.png; path = ../../Resources/images/city/city_cn/ShanghaiPoints/YuyuanGarden.png; sourceTree = "<group>"; };
+		B2F0365E1B1F8D86008A42F7 /* AdlerPlanetarium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AdlerPlanetarium.png; path = ../../Resources/images/city/city_usa/ChicagoPoints/AdlerPlanetarium.png; sourceTree = "<group>"; };
+		B2F0365F1B1F8D86008A42F7 /* CloudGate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloudGate.png; path = ../../Resources/images/city/city_usa/ChicagoPoints/CloudGate.png; sourceTree = "<group>"; };
+		B2F036601B1F8D86008A42F7 /* FieldMuseum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FieldMuseum.png; path = ../../Resources/images/city/city_usa/ChicagoPoints/FieldMuseum.png; sourceTree = "<group>"; };
+		B2F036611B1F8D86008A42F7 /* SheddAquarium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheddAquarium.png; path = ../../Resources/images/city/city_usa/ChicagoPoints/SheddAquarium.png; sourceTree = "<group>"; };
+		B2F036621B1F8D86008A42F7 /* Skydeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Skydeck.png; path = ../../Resources/images/city/city_usa/ChicagoPoints/Skydeck.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B246FF071B0409E4004B7F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B246FF1E1B0409E4004B7F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B246FF011B0409E4004B7F77 = {
+			isa = PBXGroup;
+			children = (
+				B246FF0C1B0409E4004B7F77 /* johnny.portfolio.tripplanner */,
+				B246FF241B0409E4004B7F77 /* johnny.portfolio.tripplannerTests */,
+				B246FF0B1B0409E4004B7F77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B246FF0B1B0409E4004B7F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B246FF0A1B0409E4004B7F77 /* Trip Planner.app */,
+				B246FF211B0409E4004B7F77 /* johnny.portfolio.tripplannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B246FF0C1B0409E4004B7F77 /* johnny.portfolio.tripplanner */ = {
+			isa = PBXGroup;
+			children = (
+				B246FF0F1B0409E4004B7F77 /* AppDelegate.swift */,
+				B246FF151B0409E4004B7F77 /* Main.storyboard */,
+				B246FF181B0409E4004B7F77 /* Images.xcassets */,
+				B246FF1A1B0409E4004B7F77 /* LaunchScreen.xib */,
+				B246FF0D1B0409E4004B7F77 /* Supporting Files */,
+				B2B157D61B150E0500F98A7B /* TabMeViewController.swift */,
+				B2E0A6981B05343D00AAC71B /* MyTripsViewController.swift */,
+				B2B157D41B14F36000F98A7B /* MyFavoritesViewController.swift */,
+				B2B157EE1B165F2C00F98A7B /* MyLocationViewController.swift */,
+				B2E0A69C1B053A8F00AAC71B /* TripDetailViewController.swift */,
+				B2E0A6A01B05567B00AAC71B /* TabSearchViewController.swift */,
+				B2E0A6A21B05587800AAC71B /* ContinentViewCell.swift */,
+				B23A029D1B0BCABD00AB7003 /* CountryViewController.swift */,
+				B23A029F1B0BDED100AB7003 /* CountryViewCell.swift */,
+				B262476E1B0CE27600FEA245 /* CityViewController.swift */,
+				B262476C1B0CE25F00FEA245 /* CityViewCell.swift */,
+				B26247881B0CEE3700FEA245 /* CityDetailViewController.swift */,
+				B226E1431B17D458008E4802 /* TabSettingsViewController.swift */,
+				B24EE7701B20DA5600C64A12 /* SettingsAnimationViewController.swift */,
+				B2B157EC1B165C7D00F98A7B /* OneShotLocationManager.swift */,
+				B226E1411B17D3B6008E4802 /* RateMyApp.swift */,
+				B2E0A69A1B05356200AAC71B /* Data.swift */,
+			);
+			path = johnny.portfolio.tripplanner;
+			sourceTree = "<group>";
+		};
+		B246FF0D1B0409E4004B7F77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08FBA821FBA4681000DB134 /* Reachability.h */,
+				B08FBA811FBA4681000DB134 /* Reachability.m */,
+				B226E1451B1A1730008E4802 /* johnny.portfolio.tripplanner-Bridging-Header.h */,
+				B2F036541B1F8D70008A42F7 /* Lujiazui.png */,
+				B2F036551B1F8D70008A42F7 /* OrientalPearlTower.png */,
+				B2F0365E1B1F8D86008A42F7 /* AdlerPlanetarium.png */,
+				B2F0365F1B1F8D86008A42F7 /* CloudGate.png */,
+				B2F036601B1F8D86008A42F7 /* FieldMuseum.png */,
+				B2F036611B1F8D86008A42F7 /* SheddAquarium.png */,
+				B2F036621B1F8D86008A42F7 /* Skydeck.png */,
+				B2F036561B1F8D70008A42F7 /* PeoplesSquare.png */,
+				B2F036571B1F8D70008A42F7 /* TheBund.png */,
+				B2F036581B1F8D70008A42F7 /* YuyuanGarden.png */,
+				B222FC501B1E4F1B00C06005 /* Apps-Sharing-icon.png */,
+				B2B157F01B1780A800F98A7B /* City_Default.png */,
+				B2B157EA1B162FD300F98A7B /* Travel.png */,
+				B262477A1B0CED2D00FEA245 /* Africa.png */,
+				B2B157E01B15467300F98A7B /* Chicago.png */,
+				B2B157CA1B14DD8000F98A7B /* Sydney.png */,
+				B2B157E41B1546C700F98A7B /* LasVegas.png */,
+				B262477B1B0CED2D00FEA245 /* Antarctica.png */,
+				B2B157E21B1546C100F98A7B /* LosAngeles.png */,
+				B262477C1B0CED2D00FEA245 /* Asia.png */,
+				B2B157CE1B14DD9800F98A7B /* UnitedKingdom.png */,
+				B2B157D01B14DD9F00F98A7B /* Australia.png */,
+				B2B157CC1B14DD8D00F98A7B /* London.png */,
+				B22286F31B11181F00A9D5C7 /* Honolulu.png */,
+				B262477D1B0CED2D00FEA245 /* Europe.png */,
+				B22286F11B11022F00A9D5C7 /* NewYork.png */,
+				B22286E71B11022200A9D5C7 /* Beijing.png */,
+				B22286E81B11022200A9D5C7 /* Hangzhou.png */,
+				B22286E91B11022200A9D5C7 /* Lhasa.png */,
+				B22286EA1B11022200A9D5C7 /* Sanya.png */,
+				B22286EB1B11022200A9D5C7 /* Shanghai.png */,
+				B262477E1B0CED2D00FEA245 /* NorthAmerica.png */,
+				B262477F1B0CED2D00FEA245 /* Oceania.png */,
+				B26247801B0CED2D00FEA245 /* SouthAmerica.png */,
+				B22286CF1B1101EE00A9D5C7 /* China.png */,
+				B22286DF1B1101FF00A9D5C7 /* Canada.png */,
+				B22286E01B1101FF00A9D5C7 /* Cuba.png */,
+				B22286E11B1101FF00A9D5C7 /* Mexico.png */,
+				B22286E21B1101FF00A9D5C7 /* UnitedStates.png */,
+				B22286D01B1101EE00A9D5C7 /* India.png */,
+				B22286D11B1101EE00A9D5C7 /* Japan.png */,
+				B22286D21B1101EE00A9D5C7 /* Mongolia.png */,
+				B22286D31B1101EE00A9D5C7 /* SaudiArabia.png */,
+				B22286D41B1101EE00A9D5C7 /* Singapore.png */,
+				B22286D51B1101EE00A9D5C7 /* SouthKorea.png */,
+				B22286D61B1101EE00A9D5C7 /* Thailand.png */,
+				B246FF0E1B0409E4004B7F77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B246FF241B0409E4004B7F77 /* johnny.portfolio.tripplannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B246FF271B0409E4004B7F77 /* johnny_portfolio_tripplannerTests.swift */,
+				B246FF251B0409E4004B7F77 /* Supporting Files */,
+			);
+			path = johnny.portfolio.tripplannerTests;
+			sourceTree = "<group>";
+		};
+		B246FF251B0409E4004B7F77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B246FF261B0409E4004B7F77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B246FF091B0409E4004B7F77 /* johnny.portfolio.tripplanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B246FF2B1B0409E4004B7F77 /* Build configuration list for PBXNativeTarget "johnny.portfolio.tripplanner" */;
+			buildPhases = (
+				B246FF061B0409E4004B7F77 /* Sources */,
+				B246FF071B0409E4004B7F77 /* Frameworks */,
+				B246FF081B0409E4004B7F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = johnny.portfolio.tripplanner;
+			productName = johnny.portfolio.tripplanner;
+			productReference = B246FF0A1B0409E4004B7F77 /* Trip Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B246FF201B0409E4004B7F77 /* johnny.portfolio.tripplannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B246FF2E1B0409E4004B7F77 /* Build configuration list for PBXNativeTarget "johnny.portfolio.tripplannerTests" */;
+			buildPhases = (
+				B246FF1D1B0409E4004B7F77 /* Sources */,
+				B246FF1E1B0409E4004B7F77 /* Frameworks */,
+				B246FF1F1B0409E4004B7F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B246FF231B0409E4004B7F77 /* PBXTargetDependency */,
+			);
+			name = johnny.portfolio.tripplannerTests;
+			productName = johnny.portfolio.tripplannerTests;
+			productReference = B246FF211B0409E4004B7F77 /* johnny.portfolio.tripplannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B246FF021B0409E4004B7F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "CDM of DePaul University";
+				TargetAttributes = {
+					B246FF091B0409E4004B7F77 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B246FF201B0409E4004B7F77 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B246FF091B0409E4004B7F77;
+					};
+				};
+			};
+			buildConfigurationList = B246FF051B0409E4004B7F77 /* Build configuration list for PBXProject "johnny.portfolio.tripplanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B246FF011B0409E4004B7F77;
+			productRefGroup = B246FF0B1B0409E4004B7F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B246FF091B0409E4004B7F77 /* johnny.portfolio.tripplanner */,
+				B246FF201B0409E4004B7F77 /* johnny.portfolio.tripplannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B246FF081B0409E4004B7F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26247871B0CED2D00FEA245 /* SouthAmerica.png in Resources */,
+				B2F036661B1F8D86008A42F7 /* SheddAquarium.png in Resources */,
+				B26247851B0CED2D00FEA245 /* NorthAmerica.png in Resources */,
+				B246FF171B0409E4004B7F77 /* Main.storyboard in Resources */,
+				B2F0365B1B1F8D70008A42F7 /* PeoplesSquare.png in Resources */,
+				B2B157E51B1546C700F98A7B /* LasVegas.png in Resources */,
+				B2F036631B1F8D86008A42F7 /* AdlerPlanetarium.png in Resources */,
+				B2F036671B1F8D86008A42F7 /* Skydeck.png in Resources */,
+				B2B157EB1B162FD300F98A7B /* Travel.png in Resources */,
+				B26247811B0CED2D00FEA245 /* Africa.png in Resources */,
+				B2F0365A1B1F8D70008A42F7 /* OrientalPearlTower.png in Resources */,
+				B22286E61B1101FF00A9D5C7 /* UnitedStates.png in Resources */,
+				B2F036641B1F8D86008A42F7 /* CloudGate.png in Resources */,
+				B22286E51B1101FF00A9D5C7 /* Mexico.png in Resources */,
+				B22286EF1B11022200A9D5C7 /* Sanya.png in Resources */,
+				B2B157CD1B14DD8D00F98A7B /* London.png in Resources */,
+				B22286EC1B11022200A9D5C7 /* Beijing.png in Resources */,
+				B22286EE1B11022200A9D5C7 /* Lhasa.png in Resources */,
+				B22286DA1B1101EE00A9D5C7 /* Mongolia.png in Resources */,
+				B2F036651B1F8D86008A42F7 /* FieldMuseum.png in Resources */,
+				B2F0365D1B1F8D70008A42F7 /* YuyuanGarden.png in Resources */,
+				B26247841B0CED2D00FEA245 /* Europe.png in Resources */,
+				B22286ED1B11022200A9D5C7 /* Hangzhou.png in Resources */,
+				B22286F21B11022F00A9D5C7 /* NewYork.png in Resources */,
+				B22286DD1B1101EE00A9D5C7 /* SouthKorea.png in Resources */,
+				B246FF1C1B0409E4004B7F77 /* LaunchScreen.xib in Resources */,
+				B2B157CB1B14DD8000F98A7B /* Sydney.png in Resources */,
+				B26247821B0CED2D00FEA245 /* Antarctica.png in Resources */,
+				B22286DB1B1101EE00A9D5C7 /* SaudiArabia.png in Resources */,
+				B22286D71B1101EE00A9D5C7 /* China.png in Resources */,
+				B22286DE1B1101EE00A9D5C7 /* Thailand.png in Resources */,
+				B22286F41B11181F00A9D5C7 /* Honolulu.png in Resources */,
+				B22286E41B1101FF00A9D5C7 /* Cuba.png in Resources */,
+				B2B157CF1B14DD9800F98A7B /* UnitedKingdom.png in Resources */,
+				B26247861B0CED2D00FEA245 /* Oceania.png in Resources */,
+				B2B157E11B15467300F98A7B /* Chicago.png in Resources */,
+				B22286DC1B1101EE00A9D5C7 /* Singapore.png in Resources */,
+				B246FF191B0409E4004B7F77 /* Images.xcassets in Resources */,
+				B22286F01B11022200A9D5C7 /* Shanghai.png in Resources */,
+				B22286D81B1101EE00A9D5C7 /* India.png in Resources */,
+				B22286E31B1101FF00A9D5C7 /* Canada.png in Resources */,
+				B222FC511B1E4F1B00C06005 /* Apps-Sharing-icon.png in Resources */,
+				B2B157E31B1546C100F98A7B /* LosAngeles.png in Resources */,
+				B2F0365C1B1F8D70008A42F7 /* TheBund.png in Resources */,
+				B2B157F11B1780A800F98A7B /* City_Default.png in Resources */,
+				B2F036591B1F8D70008A42F7 /* Lujiazui.png in Resources */,
+				B22286D91B1101EE00A9D5C7 /* Japan.png in Resources */,
+				B2B157D11B14DD9F00F98A7B /* Australia.png in Resources */,
+				B26247831B0CED2D00FEA245 /* Asia.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B246FF1F1B0409E4004B7F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B246FF061B0409E4004B7F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B157ED1B165C7D00F98A7B /* OneShotLocationManager.swift in Sources */,
+				B23A029E1B0BCABE00AB7003 /* CountryViewController.swift in Sources */,
+				B2B157D51B14F36000F98A7B /* MyFavoritesViewController.swift in Sources */,
+				B24EE7711B20DA5600C64A12 /* SettingsAnimationViewController.swift in Sources */,
+				B2E0A69D1B053A8F00AAC71B /* TripDetailViewController.swift in Sources */,
+				B2E0A6A11B05567B00AAC71B /* TabSearchViewController.swift in Sources */,
+				B2E0A69B1B05356200AAC71B /* Data.swift in Sources */,
+				B262476D1B0CE25F00FEA245 /* CityViewCell.swift in Sources */,
+				B23A02A01B0BDED100AB7003 /* CountryViewCell.swift in Sources */,
+				B2E0A6991B05343D00AAC71B /* MyTripsViewController.swift in Sources */,
+				B26247891B0CEE3700FEA245 /* CityDetailViewController.swift in Sources */,
+				B226E1421B17D3B6008E4802 /* RateMyApp.swift in Sources */,
+				B246FF101B0409E4004B7F77 /* AppDelegate.swift in Sources */,
+				B08FBA831FBA4681000DB134 /* Reachability.m in Sources */,
+				B226E1441B17D458008E4802 /* TabSettingsViewController.swift in Sources */,
+				B2B157D71B150E0500F98A7B /* TabMeViewController.swift in Sources */,
+				B2E0A6A31B05587800AAC71B /* ContinentViewCell.swift in Sources */,
+				B262476F1B0CE27600FEA245 /* CityViewController.swift in Sources */,
+				B2B157EF1B165F2C00F98A7B /* MyLocationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B246FF1D1B0409E4004B7F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B246FF281B0409E4004B7F77 /* johnny_portfolio_tripplannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B246FF231B0409E4004B7F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B246FF091B0409E4004B7F77 /* johnny.portfolio.tripplanner */;
+			targetProxy = B246FF221B0409E4004B7F77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B246FF151B0409E4004B7F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B246FF161B0409E4004B7F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B246FF1A1B0409E4004B7F77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B246FF1B1B0409E4004B7F77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B246FF291B0409E4004B7F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "./johnny.portfolio.tripplanner/johnny.portfolio.tripplanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B246FF2A1B0409E4004B7F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "./johnny.portfolio.tripplanner/johnny.portfolio.tripplanner-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B246FF2C1B0409E4004B7F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = johnny.portfolio.tripplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnny.portfolio.mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Trip Planner";
+				SWIFT_OBJC_BRIDGING_HEADER = "johnny.portfolio.tripplanner/johnny.portfolio.tripplanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B246FF2D1B0409E4004B7F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = johnny.portfolio.tripplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnny.portfolio.mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "johnny.portfolio.tripplanner/johnny.portfolio.tripplanner-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B246FF2F1B0409E4004B7F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = johnny.portfolio.tripplannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnny.portfolio.mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/johnny.portfolio.tripplanner.app/johnny.portfolio.tripplanner";
+			};
+			name = Debug;
+		};
+		B246FF301B0409E4004B7F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = johnny.portfolio.tripplannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnny.portfolio.mobile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/johnny.portfolio.tripplanner.app/johnny.portfolio.tripplanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B246FF051B0409E4004B7F77 /* Build configuration list for PBXProject "johnny.portfolio.tripplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246FF291B0409E4004B7F77 /* Debug */,
+				B246FF2A1B0409E4004B7F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B246FF2B1B0409E4004B7F77 /* Build configuration list for PBXNativeTarget "johnny.portfolio.tripplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246FF2C1B0409E4004B7F77 /* Debug */,
+				B246FF2D1B0409E4004B7F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B246FF2E1B0409E4004B7F77 /* Build configuration list for PBXNativeTarget "johnny.portfolio.tripplannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246FF2F1B0409E4004B7F77 /* Debug */,
+				B246FF301B0409E4004B7F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B246FF021B0409E4004B7F77 /* Project object */;
+}
