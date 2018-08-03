@@ -4,7 +4,7 @@ An iOS app for managing itineraries, built with Swift.
 # Function
 This iOS app is used to manage your trip plan.
 
-<kbd>![image](/Resources/index.png)</kbd>
+<kbd><img src="/Resources/index.png" width="350px"></kbd>
 
 # Setup Locally
 ```bash
