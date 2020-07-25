@@ -18,4 +18,4 @@ git clone https://github.com/jojozhuang/trip-planner-ios.git
 Open the project in Xcode, compile and run.
 
 # Portfolio
-Read portfolio [Trip Planner(iOS)](https://jojozhuang.github.io/portfolio/trip-planner-ios/) to learn the main functions of this iOS app.
+Read portfolio [Trip Planner(iOS)](https://jojozhuang.github.io/project/trip-planner-ios/) to learn the main functions of this iOS app.
